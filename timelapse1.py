@@ -1,8 +1,8 @@
+# Timelapse camera taking a photo every 30 minutes for 10 hours
 from picamera import PiCamera
-#from datetime import datetime
 import time
-frames = 5
-timebetween = 10
+frames = 20
+timebetween = 1800
 actual_timebetween = timebetween - 6
 framecount = 0
 

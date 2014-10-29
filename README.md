@@ -1,9 +1,3 @@
 # picademy
 
-Test repo at Picademy
-
-And some more
-
-Ive added more here
-And even more down here
-
+These are a number of camera based scripts that I am working on following picademy

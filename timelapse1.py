@@ -1,8 +1,8 @@
 # Timelapse camera taking a photo every 10 minutes for 12 hours
 from picamera import PiCamera
 import time
-frames = 72
-timebetween = 600
+frames = 50
+timebetween = 300
 actual_timebetween = timebetween - 6
 framecount = 0
 

@@ -2,7 +2,7 @@
 from picamera import PiCamera
 import time
 frames = 50
-timebetween = 300
+timebetween = 120
 actual_timebetween = timebetween - 6
 framecount = 0
 

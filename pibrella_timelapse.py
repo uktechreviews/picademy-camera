@@ -14,7 +14,7 @@ total_time = round((frames * timebetween)/60)
 print ("It will take approx ",total_time," minutes")
 print ("photos will be saved in photo_output")
 
-pibrella.light.red.off()
+#pibrella.light.red.off()
 
 while framecount < frames: 
 	with PiCamera() as camera:

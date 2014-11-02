@@ -18,6 +18,7 @@ print ("photos will be saved in photo_output")
 
 while framecount < frames: 
 	with PiCamera() as camera:
+		camera.start_preview()
 		pibrella.light.green.on()
 		pibrella.light.amber.off()	
 		localtime = time.asctime( time.localtime(time.time()) )
@@ -27,3 +28,5 @@ while framecount < frames:
 		pibrella.light.green.off()
 		pibrella.light.amber.on()
 		time.sleep(actual_timebetween)
+camera.stop_preview()	
+

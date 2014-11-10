@@ -1,4 +1,4 @@
-# Timelapse camera using Pibrella to indicate status
+# Timelapse camera using Lisiparoi flash connected to GPIO7
 
 from picamera import PiCamera
 import time

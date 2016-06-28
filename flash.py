@@ -1,5 +1,5 @@
 # Timelapse camera using Lisiparoi flash connected to GPIO7
-
+## This has been updated on My Mac
 from picamera import PiCamera
 import time
 import RPi.GPIO as GPIO
